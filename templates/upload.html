@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Upload
+{% endblock %}
+
+{% block main %}
+    <p>
+        Video URL
+    </p>
+    <form action="/upload" method="post">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="upload" placeholder="https://www.youtube.com/embed/example" type="text">
+        </div>
+        <button class="btn btn-primary" type="submit">Upload</button>
+    </form>
+{% endblock %}

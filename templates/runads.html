@@ -1,0 +1,112 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Run Ads
+{% endblock %}
+
+{% block main %}
+<script type= "text/javascript">
+
+var a = {{ data1|safe }};
+var b = {{ data2|safe }};
+var c = {{ data3|safe }};
+var d = {{ data4|safe }};
+var e = {{ data5|safe }};
+var f = {{ data6|safe }};
+var g = {{ data7|safe }};
+var h = {{ data8|safe }};
+var i = {{ data9|safe }};
+var j = {{ data10|safe }};
+
+
+window.onload = function myFunction(){
+    document.getElementById("1").src = `${a}`;
+    document.getElementById("2").src = `${b}`;
+    document.getElementById("3").src = `${c}`;
+    document.getElementById("4").src = `${d}`;
+    document.getElementById("5").src = `${e}`;
+    document.getElementById("6").src = `${f}`;
+    document.getElementById("7").src = `${g}`;
+    document.getElementById("8").src = `${h}`;
+    document.getElementById("9").src = `${i}`;
+    document.getElementById("10").src = `${j}`;
+};
+
+</script>
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval= "5000">
+  <div class="carousel-inner">
+
+   <div class="carousel-item active">
+      <div class="embed-responsive embed-responsive-16by9">
+          <iframe  id= "1" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="embed-responsive embed-responsive-16by9">
+          <iframe id= "2" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="embed-responsive embed-responsive-16by9">
+          <iframe id= "3" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="embed-responsive embed-responsive-16by9">
+          <iframe id= "4" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="embed-responsive embed-responsive-16by9">
+          <iframe id= "5" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="embed-responsive embed-responsive-16by9">
+          <iframe id= "6" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="embed-responsive embed-responsive-16by9">
+          <iframe id= "7" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="embed-responsive embed-responsive-16by9">
+          <iframe id= "8" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="embed-responsive embed-responsive-16by9">
+          <iframe id= "9" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="embed-responsive embed-responsive-16by9">
+          <iframe id= "10" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+    </div>
+
+  </div>
+</div>
+{% endblock %}

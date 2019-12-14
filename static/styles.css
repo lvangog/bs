@@ -1,0 +1,66 @@
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+
+.title
+{
+    text-align: center;
+    color: orange;
+}
+
+.title2
+{
+    text-align: center;
+    color: black;
+}
+
+.teamimg
+{
+  height: 200px;
+  width: 200px;
+}
+
+#rotate
+{
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+table
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr
+{
+    border: 1px solid black;
+    padding: 4px;
+}
+
+td
+{
+    padding: 8px;
+}
+
+#homecity
+{
+    height: 500px;
+    width: 100%;
+}
+
+
+#textarea
+{
+    width: 75%;
+    height: 150px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
